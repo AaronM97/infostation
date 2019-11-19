@@ -10,5 +10,18 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronM97/infostation.git"
+  },
+  "keywords": [
+    "Site",
+    "Search",
+    "Bar"
+  ],
+  "bugs": {
+    "url": "https://github.com/AaronM97/infostation/issues"
+  },
+  "homepage": "https://github.com/AaronM97/infostation#readme"
 }
