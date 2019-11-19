@@ -9,6 +9,7 @@
   "author": "Aaron and Brian",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^2.7.3",
     "express": "^4.17.1"
   },
   "repository": {
