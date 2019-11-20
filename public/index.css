@@ -3,7 +3,7 @@ body {
     align-items: flex-start;
     width: 100%;
     height: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 section {
@@ -13,15 +13,25 @@ section {
 }
 
 .logo {
-    width: 30%;
-    background-color: red;
+    width: 20%;
+    /* background-color: red; */
     display: flex;
     justify-content: center;
 }
 
+.image {
+    /* display: block; */
+    height: 150px;
+    object-fit: cover;
+}
+
 .searchstuff {
-    width: 70%;
+    width: 50%;
     background-color: green;
     display: flex;
     flex-direction: column;
+}
+
+.flex {
+    display: flex;
 }

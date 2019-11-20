@@ -9,6 +9,21 @@
   "author": "Aaron and Brian",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "ejs": "^2.7.3",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronM97/infostation.git"
+  },
+  "keywords": [
+    "Site",
+    "Search",
+    "Bar"
+  ],
+  "bugs": {
+    "url": "https://github.com/AaronM97/infostation/issues"
+  },
+  "homepage": "https://github.com/AaronM97/infostation#readme"
 }
