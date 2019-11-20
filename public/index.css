@@ -1,27 +1,42 @@
+.flex {
+  display: flex;
+}
+
 body {
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
-    height: 100%;
-    background-color: aqua;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
 }
 
 section {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 10px;
 }
 
 .logo {
-    width: 30%;
-    background-color: red;
-    display: flex;
-    justify-content: center;
+  width: 20%;
+  justify-content: center;
+}
+
+.image {
+  height: 200px;
+  object-fit: cover;
 }
 
 .searchstuff {
-    width: 70%;
-    background-color: green;
-    display: flex;
-    flex-direction: column;
+  width: 30%;
+  background-color: rgba(241, 242, 233, 50%);
+  flex-direction: row;
+  justify-content: center;
+  word-wrap: normal;
+}
+
+input {
+  width: 75%;
+}
+
+p {
+  font-size: 30px;
 }
