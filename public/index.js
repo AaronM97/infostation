@@ -1,4 +1,4 @@
-// for index.html
+////////////////////////////////////// for index.html //////////////////////////////////////
 
 // Typewritter text
 var i = 0;
@@ -20,11 +20,11 @@ async function backgroundImage() {
     let link1 = res1.url;
     setPhotos(link1);
 };
-
 function setPhotos(image1) {
     $('body').css('background-image', `url(${image1})`).css('background-size', '100%');
 }
 backgroundImage();
+
 // Add logic to make sure there is a search term.
 $(document).ready(function () {
     $("#search").click(function (ev) {
@@ -43,4 +43,4 @@ $(document).ready(function () {
 });
 
 
-console.log('something happens');
+console.log('something happens on index.js');

@@ -1,4 +1,4 @@
-// for results.html
+////////////////////////////////////// for results.html //////////////////////////////////////
 
 $(document).ready(function () {
     let query = $(".searchquery").text();
@@ -10,9 +10,6 @@ $(document).ready(function () {
         for (var i = 0; i < response.items.length; i++) {
             var item = response.items[i];
             console.log(item);
-            // var linking = item.link;
-            // console.log(linking);
-            // document.getElementById("searchresults").append("<div> item.htmlTitle <br> + item.formattedUrl </div>");
             $("#searchresults").append(`<div class="result${[i]}"> <a href="${item.formattedUrl}"> ${item.title} </a> <br> ${item.htmlSnippet} </div>`);
         };
     });
@@ -26,13 +23,12 @@ async function backgroundImage() {
     let link1 = res1.url;
     setPhotos(link1);
 }
-
 function setPhotos(image1) {
     $('body').css('background-image', `url(${image1})`).css('background-size', '100%');
 }
 backgroundImage();
 
-console.log('something happens');
+console.log('something happens on main.js');
 
 
 // testing section facility
