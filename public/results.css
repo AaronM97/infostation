@@ -2,6 +2,28 @@
     visibility: hidden;
 }
 
-div {
-    background-color: white;
+body {
+    width: 50%;
+}
+
+h2 {
+    background-color: rgba(241, 242, 233, 50%);
+    width: 85%;
+    text-align: center;
+
+}
+
+#searchresults {
+    background-color: rgba(241, 242, 233, 30%);
+    width: 100%;
+}
+
+.thingy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result0, .result1, .result2, .result3, .result4, .result5, .result6, .result7, .result8, .result9 {
+    padding: 3px;
 }
