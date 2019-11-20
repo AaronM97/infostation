@@ -40,6 +40,19 @@ $(document).ready(function () {
             $("form").attr("action", "results").attr("method", "POST");
         };
     });
+    $("#luckybutton").click(function (ev) {
+        // Reload logic. 
+        // ev.preventDefault();
+        let query = $("input[name=bar]").val();
+        console.log(query);
+        console.log("query");
+        if (query.length === 0) {
+            alert("Insert search term!");
+        };
+        if (query.length > 0) {
+            $("form").attr("action", "lucky").attr("method", "POST");
+        };
+    });
 });
 
 

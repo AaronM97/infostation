@@ -15,7 +15,6 @@ $(document).ready(function () {
     });
 });
 
-
 // Background image
 let imageUrl1 = "https://source.unsplash.com/random/1600x900"
 async function backgroundImage() {
